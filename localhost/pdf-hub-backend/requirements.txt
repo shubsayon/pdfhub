@@ -1,0 +1,50 @@
+# ============================================
+# PDFForge Backend - Python Dependencies
+# ============================================
+# 
+# Installation: pip install -r requirements.txt
+# 
+# Note: Since you're using Anaconda, some packages
+# may already be installed. This file ensures
+# all dependencies are documented and can be
+# installed in any environment.
+# ============================================
+
+# Core Web Framework
+Flask==2.3.3
+flask-cors==4.0.1
+Werkzeug==2.3.7
+
+# Image Processing
+# Pillow>=10.0.0
+
+# PDF Manipulation
+PyPDF2==3.0.1
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# ============================================
+# Optional Dependencies (for development)
+# ============================================
+
+# For better debugging (optional)
+# flask-debugtoolbar==0.13.1
+
+# For production deployment (optional)
+# gunicorn==21.2.0
+
+# For additional file handling (optional)
+# python-magic==0.4.27
+
+# ============================================
+# Notes for Anaconda Users:
+# ============================================
+# If you're using Anaconda, you can install
+# these packages using conda instead:
+#
+# conda install flask flask-cors werkzeug pillow pypdf2 python-dotenv
+#
+# Or create a conda environment from this file:
+# conda create --name pdf-forge --file requirements.txt
+# ============================================
