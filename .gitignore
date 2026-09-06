@@ -1,8 +1,3 @@
-# Environment variables (contains passwords!)
-.env
-.env.local
-.env.production
-
 # Python cache
 __pycache__/
 *.pyc
@@ -23,9 +18,18 @@ env/
 .DS_Store
 Thumbs.db
 
-# Temporary upload/output folders
+# Environment variables (contains passwords!)
+.env
+.env.local
+.env.production
+
+# Upload/Output folders (from server)
 uploads/
 output/
 
 # Log files
 *.log
+
+# Backup files
+*.bak
+*.backup
